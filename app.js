@@ -90,7 +90,7 @@ app.use((error, req,res, next) => {
 }) 
 
 mongoose.connect(
-  'mongodb+srv://navneetvips57:6HPKOZjfgRI6b6zb@cluster0.jf2a7rl.mongodb.net/GraphQL?retryWrites=true&w=majority&appName=Cluster0'
+  '[mongodb_connection_string]'
 )
 .then(result => {
     app.listen(8000);
